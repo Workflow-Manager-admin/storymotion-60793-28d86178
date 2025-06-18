@@ -7,6 +7,26 @@
  *   const { results } = await fetchMovieInfoFromTMDB("Inception");
  */
 
+
+/**
+ * Environment Variable Required:
+ *   REACT_APP_TMDB_API_KEY must be defined in your .env file.
+ *   Example in .env:
+ *     REACT_APP_TMDB_API_KEY=your-tmdb-api-key
+ */
+
+function getEnvOrThrow(key) {
+  const value = process.env[key];
+  if (!value) {
+    // eslint-disable-next-line no-console
+    console.error(
+      `[TMDBApi] Missing environment variable: ${key}. Define it as REACT_APP_TMDB_API_KEY in your .env.`
+    );
+    throw new Error(`Missing required environment variable: ${key} for TMDb API.`);
+  }
+  return value;
+}
+
 // PUBLIC_INTERFACE
 export async function fetchMovieInfoFromTMDB(query, page = 1) {
   /**
@@ -15,9 +35,11 @@ export async function fetchMovieInfoFromTMDB(query, page = 1) {
    * @param {number} [page=1] - Results page for pagination
    * @returns {Promise<{results: object[]} | {error: string}>}
    */
-  const apiKey = process.env.REACT_APP_TMDB_API_KEY;
-  if (!apiKey) {
-    return { error: "Missing TMDb API key." };
+  let apiKey;
+  try {
+    apiKey = getEnvOrThrow("REACT_APP_TMDB_API_KEY");
+  } catch (err) {
+    return { error: err.message };
   }
   try {
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&query=${encodeURIComponent(query)}&page=${page}`;

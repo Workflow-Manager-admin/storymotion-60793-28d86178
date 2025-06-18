@@ -7,352 +7,38 @@
 <i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
 <i> [webpack-dev-server] Content not from webpack is served from './public' directory
 Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
-asset bundle.js 1.39 MiB [emitted] (name: main)
+asset bundle.js 1.43 MiB [emitted] (name: main)
 asset index.html 1.98 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
-modules by path ./node_modules/ 1.24 MiB 31 modules
-modules by path ./src/ 11.1 KiB
-  modules by path ./src/*.css 7.49 KiB 4 modules
-  modules by path ./src/*.js 3.58 KiB
-    ./src/index.js 530 bytes [built] [code generated]
-    ./src/App.js 3.06 KiB [built] [code generated]
-modules by path ./.ve/ 15.1 KiB
-  modules by path ./.ve/*.js 10.6 KiB 2 modules
-  modules by path ./.ve/*.css 2.93 KiB
-    ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
-    ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
-  ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1213 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.41 MiB
-  asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.b08943f7b5151e66d8c1.hot-update.js 14 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.b08943f7b5151e66d8c1.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.b08943f7b5151e66d8c1.hot-update.js 14 KiB
-cached modules 1.26 MiB [cached] 41 modules
-runtime modules 27.5 KiB 14 modules
-./src/App.js 8.45 KiB [built] [code generated]
-
-ERROR in ./src/App.js 3:0-49
-Module not found: Error: Can't resolve './components/StoryInput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 4:0-55
-Module not found: Error: Can't resolve './components/StoryAnalysis' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 5:0-65
-Module not found: Error: Can't resolve './components/SceneVisualization' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 6:0-59
-Module not found: Error: Can't resolve './components/ImageGeneration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 7:0-57
-Module not found: Error: Can't resolve './components/VoiceNarration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 8:0-47
-Module not found: Error: Can't resolve './components/Animation' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 9:0-55
-Module not found: Error: Can't resolve './components/VideoPlayback' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 10:0-51
-Module not found: Error: Can't resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-8 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.99.9 compiled with 8 errors in 105 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.42 MiB
-  asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.d54eb70e22d9f618fea3.hot-update.js 17.7 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.d54eb70e22d9f618fea3.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.42 MiB = bundle.js 1.4 MiB main.d54eb70e22d9f618fea3.hot-update.js 17.7 KiB
-cached modules 1.26 MiB [cached] 41 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 10.8 KiB
-  ./src/App.js 8.45 KiB [code generated]
-  ./src/components/StoryInput.js 2.37 KiB [built] [code generated]
-
-ERROR in ./src/App.js 4:0-55
-Module not found: Error: Can't resolve './components/StoryAnalysis' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 5:0-65
-Module not found: Error: Can't resolve './components/SceneVisualization' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 6:0-59
-Module not found: Error: Can't resolve './components/ImageGeneration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 7:0-57
-Module not found: Error: Can't resolve './components/VoiceNarration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 8:0-47
-Module not found: Error: Can't resolve './components/Animation' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 9:0-55
-Module not found: Error: Can't resolve './components/VideoPlayback' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 10:0-51
-Module not found: Error: Can't resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-7 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.99.9 compiled with 7 errors in 52 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.43 MiB
-  asset bundle.js 1.41 MiB [emitted] (name: main)
-  asset main.17de7c58c2c08fe0558a.hot-update.js 18.5 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.17de7c58c2c08fe0558a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.43 MiB = bundle.js 1.41 MiB main.17de7c58c2c08fe0558a.hot-update.js 18.5 KiB
-cached modules 1.26 MiB [cached] 42 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 11.5 KiB
-  ./src/App.js 8.45 KiB [code generated]
-  ./src/components/StoryAnalysis.js 3.08 KiB [built] [code generated]
-
-ERROR in ./src/App.js 5:0-65
-Module not found: Error: Can't resolve './components/SceneVisualization' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 6:0-59
-Module not found: Error: Can't resolve './components/ImageGeneration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 7:0-57
-Module not found: Error: Can't resolve './components/VoiceNarration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 8:0-47
-Module not found: Error: Can't resolve './components/Animation' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 9:0-55
-Module not found: Error: Can't resolve './components/VideoPlayback' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 10:0-51
-Module not found: Error: Can't resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-6 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.99.9 compiled with 6 errors in 58 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.43 MiB
-  asset bundle.js 1.41 MiB [emitted] (name: main)
-  asset main.ffdac549cc5d1aaa1473.hot-update.js 18.5 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.ffdac549cc5d1aaa1473.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.43 MiB = bundle.js 1.41 MiB main.ffdac549cc5d1aaa1473.hot-update.js 18.5 KiB
-cached modules 1.27 MiB [cached] 43 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 11.5 KiB
-  ./src/App.js 8.45 KiB [code generated]
-  ./src/components/SceneVisualization.js 3.06 KiB [built] [code generated]
-
-ERROR in ./src/App.js 6:0-59
-Module not found: Error: Can't resolve './components/ImageGeneration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 7:0-57
-Module not found: Error: Can't resolve './components/VoiceNarration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 8:0-47
-Module not found: Error: Can't resolve './components/Animation' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 9:0-55
-Module not found: Error: Can't resolve './components/VideoPlayback' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 10:0-51
-Module not found: Error: Can't resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-5 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.99.9 compiled with 5 errors in 58 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.44 MiB
-  asset bundle.js 1.42 MiB [emitted] (name: main)
-  asset main.387f443f950dc3ccf0ff.hot-update.js 19.5 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.387f443f950dc3ccf0ff.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.44 MiB = bundle.js 1.42 MiB main.387f443f950dc3ccf0ff.hot-update.js 19.5 KiB
-cached modules 1.27 MiB [cached] 44 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 12.2 KiB
-  ./src/App.js 8.45 KiB [code generated]
-  ./src/components/ImageGeneration.js 2 KiB [built] [code generated]
-  ./src/api/stabilityApi.js 1.71 KiB [built] [code generated]
-
-ERROR in ./src/App.js 7:0-57
-Module not found: Error: Can't resolve './components/VoiceNarration' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 8:0-47
-Module not found: Error: Can't resolve './components/Animation' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 9:0-55
-Module not found: Error: Can't resolve './components/VideoPlayback' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 10:0-51
-Module not found: Error: Can't resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-4 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.99.9 compiled with 4 errors in 54 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.44 MiB
-  asset bundle.js 1.42 MiB [emitted] (name: main)
-  asset main.6517f18153b209ec7c22.hot-update.js 19.7 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.6517f18153b209ec7c22.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.44 MiB = bundle.js 1.42 MiB main.6517f18153b209ec7c22.hot-update.js 19.7 KiB
-cached modules 1.27 MiB [cached] 46 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 12.4 KiB
-  ./src/App.js 8.45 KiB [code generated]
-  ./src/components/VoiceNarration.js 2.2 KiB [built] [code generated]
-  ./src/api/elevenLabsApi.js 1.7 KiB [built] [code generated]
-
-ERROR in ./src/App.js 8:0-47
-Module not found: Error: Can't resolve './components/Animation' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 9:0-55
-Module not found: Error: Can't resolve './components/VideoPlayback' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 10:0-51
-Module not found: Error: Can't resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.99.9 compiled with 3 errors in 44 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.45 MiB
-  asset bundle.js 1.43 MiB [emitted] (name: main)
-  asset main.687b6852f5137763e99e.hot-update.js 17.5 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.687b6852f5137763e99e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.45 MiB = bundle.js 1.43 MiB main.687b6852f5137763e99e.hot-update.js 17.5 KiB
-cached modules 1.28 MiB [cached] 48 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 11 KiB
-  ./src/App.js 8.45 KiB [code generated]
-  ./src/components/Animation.js 2.52 KiB [built] [code generated]
-
-ERROR in ./src/App.js 9:0-55
-Module not found: Error: Can't resolve './components/VideoPlayback' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
-resolve './components/VideoPlayback' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
-  using description file: /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/package.json (relative path: ./src)
-    Field 'browser' doesn't contain a valid alias configuration
-    using description file: /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/package.json (relative path: ./src/components/VideoPlayback)
-      no extension
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoPlayback doesn't exist
-      .js
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoPlayback.js doesn't exist
-      .jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoPlayback.jsx doesn't exist
-      as directory
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoPlayback doesn't exist
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 10:0-51
-Module not found: Error: Can't resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
-resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
-  using description file: /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/package.json (relative path: ./src)
-    Field 'browser' doesn't contain a valid alias configuration
-    using description file: /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/package.json (relative path: ./src/components/VideoOutput)
-      no extension
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoOutput doesn't exist
-      .js
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoOutput.js doesn't exist
-      .jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoOutput.jsx doesn't exist
-      as directory
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoOutput doesn't exist
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 2 errors in 41 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.45 MiB
-  asset bundle.js 1.43 MiB [emitted] (name: main)
-  asset main.d84de33869b060934742.hot-update.js 16.3 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.d84de33869b060934742.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.45 MiB = bundle.js 1.43 MiB main.d84de33869b060934742.hot-update.js 16.3 KiB
-cached modules 1.28 MiB [cached] 49 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 9.88 KiB
-  ./src/App.js 8.45 KiB [code generated]
-  ./src/components/VideoPlayback.js 1.43 KiB [built] [code generated]
-
-ERROR in ./src/App.js 10:0-51
-Module not found: Error: Can't resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
-resolve './components/VideoOutput' in '/home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src'
-  using description file: /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/package.json (relative path: ./src)
-    Field 'browser' doesn't contain a valid alias configuration
-    using description file: /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/package.json (relative path: ./src/components/VideoOutput)
-      no extension
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoOutput doesn't exist
-      .js
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoOutput.js doesn't exist
-      .jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoOutput.jsx doesn't exist
-      as directory
-        /home/kavia/workspace/code-generation/storymotion-60793-28d86178/storymotion_frontend/src/components/VideoOutput doesn't exist
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 1 error in 41 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.45 MiB
-  asset bundle.js 1.43 MiB [emitted] (name: main)
-  asset main.f139f4405543b533a5a0.hot-update.js 16.8 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.f139f4405543b533a5a0.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.45 MiB = bundle.js 1.43 MiB main.f139f4405543b533a5a0.hot-update.js 16.8 KiB
-cached modules 1.28 MiB [cached] 50 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 10.5 KiB
-  ./src/App.js 8.45 KiB [code generated]
-  ./src/components/VideoOutput.js 2.01 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 43 ms
+cacheable modules 1.29 MiB
+  modules by path ./node_modules/ 1.24 MiB 31 modules
+  modules by path ./src/ 38.5 KiB
+    modules by path ./src/components/*.js 18.7 KiB 8 modules
+    modules by path ./src/*.css 7.5 KiB 4 modules
+    modules by path ./src/*.js 8.97 KiB 2 modules
+    modules by path ./src/api/*.js 3.41 KiB 2 modules
+  modules by path ./.ve/ 15.1 KiB
+    modules by path ./.ve/*.js 10.6 KiB 2 modules
+    modules by path ./.ve/*.css 2.93 KiB 2 modules
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 1342 ms
 assets by status 1.98 KiB [cached] 1 asset
 assets by path *.js 1.44 MiB
   asset bundle.js 1.43 MiB [emitted] (name: main)
-  asset main.2dcb5baf68dfa061dbf9.hot-update.js 4.65 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.2dcb5baf68dfa061dbf9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.44 MiB = bundle.js 1.43 MiB main.2dcb5baf68dfa061dbf9.hot-update.js 4.65 KiB
+  asset main.f34601df5d81e5a9267b.hot-update.js 3.95 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.f34601df5d81e5a9267b.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.43 MiB main.f34601df5d81e5a9267b.hot-update.js 3.95 KiB
 cached modules 1.29 MiB [cached] 51 modules
 runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/App.css 2.19 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 32 ms
+./src/api/elevenLabsApi.js 2.48 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 100 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.24e85b7004de2aef3747.hot-update.js 3.74 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.24e85b7004de2aef3747.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.44 MiB main.24e85b7004de2aef3747.hot-update.js 3.74 KiB
+cached modules 1.29 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/api/stabilityApi.js 2.26 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 47 ms

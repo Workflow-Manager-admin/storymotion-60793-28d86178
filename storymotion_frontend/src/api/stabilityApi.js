@@ -7,6 +7,26 @@
  *   const result = await generateImageWithStability("A futuristic cityscape at dusk");
  */
 
+
+/**
+ * Environment Variable Required:
+ *   REACT_APP_STABILITY_API_KEY must be defined in your .env file.
+ *   Example in .env:
+ *     REACT_APP_STABILITY_API_KEY=your-stability-api-key
+ */
+
+function getEnvOrThrow(key) {
+  const value = process.env[key];
+  if (!value) {
+    // eslint-disable-next-line no-console
+    console.error(
+      `[StabilityApi] Missing environment variable: ${key}. Define it as REACT_APP_STABILITY_API_KEY in your .env.`
+    );
+    throw new Error(`Missing required environment variable: ${key} for Stability AI API.`);
+  }
+  return value;
+}
+
 // PUBLIC_INTERFACE
 export async function generateImageWithStability(prompt) {
   /**
@@ -14,9 +34,11 @@ export async function generateImageWithStability(prompt) {
    * @param {string} prompt - The descriptive prompt for image generation.
    * @returns {Promise<{imageUrl: string} | {error: string}>}
    */
-  const apiKey = process.env.REACT_APP_STABILITY_API_KEY;
-  if (!apiKey) {
-    return { error: "Missing Stability AI API key." };
+  let apiKey;
+  try {
+    apiKey = getEnvOrThrow("REACT_APP_STABILITY_API_KEY");
+  } catch (err) {
+    return { error: err.message };
   }
   try {
     const response = await fetch("https://api.stability.ai/v1/generation/stable-diffusion-v1-5/text-to-image", {
